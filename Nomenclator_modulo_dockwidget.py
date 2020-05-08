@@ -245,7 +245,8 @@ class NomenclatorDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
         feature["fechaalta"] = str(now.strftime("%Y-%m-%d %H:%M:%S"))
         edit_layer.updateFeature(feature)
         edit_layer.commitChanges()
-        edit_layer.endEditCommand()
+        self.iface.vectorLayerTools().stopEditing(edit_layer, False)
+        #  edit_layer.endEditCommand()
 
 
     def editing_stopped_linea(self):  # Añadimos los atributos al toponimo lineal añadido
@@ -263,7 +264,8 @@ class NomenclatorDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
         feature["fechaalta"] = str(now.strftime("%Y-%m-%d %H:%M:%S"))
         edit_layer.updateFeature(feature)
         edit_layer.commitChanges()
-        edit_layer.endEditCommand()
+        self.iface.vectorLayerTools().stopEditing(edit_layer, False)
+        #  edit_layer.endEditCommand()
 
     def editing_stopped_poligono(self):  # Añadimos los atributos al toponimo poligonal añadido
         now = datetime.datetime.now()
@@ -280,7 +282,8 @@ class NomenclatorDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
         feature["fechaalta"] = str(now.strftime("%Y-%m-%d %H:%M:%S"))
         edit_layer.updateFeature(feature)
         edit_layer.commitChanges()
-        edit_layer.endEditCommand()
+        self.iface.vectorLayerTools().stopEditing(edit_layer, False)
+        #  edit_layer.endEditCommand()
 
 
     def activaorto(self, event):  # Activamos o desactivamos capa de ortofoto PNOA
