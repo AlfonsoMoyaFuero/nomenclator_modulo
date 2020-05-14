@@ -194,7 +194,7 @@
    </widget>
    <widget class="QComboBox" name="cbx_uno">
     <property name="enabled">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
     <property name="geometry">
      <rect>
@@ -207,7 +207,7 @@
    </widget>
    <widget class="QComboBox" name="cbx_dos">
     <property name="enabled">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
     <property name="geometry">
      <rect>
@@ -220,7 +220,7 @@
    </widget>
    <widget class="QComboBox" name="cbx_tres">
     <property name="enabled">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
     <property name="geometry">
      <rect>
