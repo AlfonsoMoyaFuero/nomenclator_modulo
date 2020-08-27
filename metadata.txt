@@ -3,17 +3,17 @@
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=Nomenclator Toponìmic Valencià
+name=IDEV
 qgisMinimumVersion=3.0
-description=Editor de la toponimia del Nomenclator Toponìmic Valencià
+description=Infraestructura Valenciana de Dades Espacials
 version=0.1
 author=Alfonso Moya Fuero
-email=almofue@usal.es
+email=moya_alf@gva.es
 
-about=Editor toponímico programado para la asignatura "Programación en Open Source" del "Máster Universitario en Geotecnologías Cartográficas en Ingeniería y Arquitectura". El propósito es generar un panel de edición para la recolección de la toponimia generada por los encuestadores, conforme al modelo de datos de la AVL.
+about=Infraestructura Valenciana de Dades Espacials. La Infraestructura Valenciana de Dades Espacials (IDEV) es crea amb l'objectiu d'integrar la informació geogràfica de la Generalitat i fer-les accessibles a través d'internet des d'un mateix portal, incorporant infraestructures i serveis interoperables d'informació geogràfica. La Infraestructura Valenciana de Datos Espaciales (IDEV) se crea con el objetivo de integrar la información geográfica de la Generalitat y hacerlas accesibles a través de internet desde un mismo portal, incorporando infraestructuras y servicios interoperables de información geográfica. http://www.idev.gva.es/
 
 tracker=http://bugs
-repository=http://repo
+repository=https://github.com/AlfonsoMoyaFuero/idev_visor
 # End of mandatory metadata
 
 # Recommended items:
@@ -23,9 +23,9 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=editing, point, polygon, polyline, shapefile,line
+tags=python
 
-homepage=http://homepage
+homepage=https://idev.gva.es
 category=Plugins
 icon=icon.png
 # experimental flag

@@ -1,0 +1,858 @@
+[
+  {
+    "nombre_cas": "Nomenclator Toponimico Valenciano",
+    "nombre_val": "Nomenclàtor Toponímic Valencià",
+    "aviso_cas": "El Nomenclátor es una base de datos espacial que contiene más de 120.000 topónimos que hacen referencia a la toponimia mayor (poblaciones, ríos principales, sierras principales, etc) y toponimia menor (ríos secundarios, barrancos, montañas, caminos, sendas, parajes, cuevas, fuentes, entidades menores de población, etc.) de la Comunitat Valenciana. El Nomenclátor es un proyecto que se está actualizando constantemente a través del trabajo conjunto entre técnicos, lingüistas y colaboradores del Institut Cartogràfic Valencià (http://www.icv.gva.es/ca) y de la Acadèmia Valenciana de la Llengua (http://www.avl.gva.es/web/avl/info-castellano).",
+    "aviso_val": "El Nomenclàtor és una base de dades espacials que conté més de 120.000 topònims que fan referència a la toponímia major (poblacions, rius principals, serres principals, etc) i toponímia menor (rius secundaris, barrancs, muntanyes, camins, sendes, paratges, coves, fonts, entitats menors de població; etc.) de la Comunitat Valenciana. El Nomenclàtor és un projecte que s'està actualitzant constantment a través del treball conjunt entre tècnics, lingüistes i col·laboradors de l'Institut Cartogràfic Valencià (http://www.icv.gva.es) i de l'Acadèmia Valenciana de la Llengua (http://www.avl.gva.es/).",
+    "metadato": "spaicvNomenclatorCV_ICV",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=NOMENCLATOR_ICV&styles=default&url=https://terramapas.icv.gva.es/toponimia_base"
+  },
+  {
+    "nombre_cas": "Puntos de cota CV05",
+    "nombre_val": "Punts de cota CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv05Serie2015",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=OrogpuntosCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Orografía líneas CV05",
+    "nombre_val": "Orografia línies CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv05Serie2015",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=OroglineasCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Curvas de nivel CV05",
+    "nombre_val": "Corbes de nivell CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv05Serie2015",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=OrogcurvasCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Hidrografía puntual CV05",
+    "nombre_val": "Hidrografia puntual CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv05Serie2015",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=HidropuntualCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Hidrografía lineal CV05",
+    "nombre_val": "Hidrografia lineal CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv05Serie2015",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=HidrolinealCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Construcciones puntuales CV05",
+    "nombre_val": "Construccions puntuals CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv05Serie2015",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=ConsPuntualesCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Servicios e instalaciones CV05",
+    "nombre_val": "Serveis i instal·lacions CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv05Serie2015",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=ConsServinstCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Construcciones lineales CV05",
+    "nombre_val": "Construccions lineals CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv05Serie2015",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=ConsLinealesCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Edificaciones CV05",
+    "nombre_val": "Edificacions CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv05Serie2015",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=ConsEdifCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Construcciones CV05",
+    "nombre_val": "Construccions CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv05Serie2015",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=ConsPoligonalesCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Hidrografía CV05",
+    "nombre_val": "Hidrografia CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv05Serie2015",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=UsosHidrografiaCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Zonas arboladas CV05",
+    "nombre_val": "Zones amb arbres CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv05Serie2015",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=ZonasArboladasCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Infraestructuras viarias CV05",
+    "nombre_val": "Infraestructures viàries CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv05Serie2015",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=UsosCarreterasCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Servicios e instalaciones CV05",
+    "nombre_val": "Serveis i instal·lacion CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv05Serie2015",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=UsosServiciosInstalacionesCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Cultivos CV05",
+    "nombre_val": "Cultius CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv05Serie2015",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=UsosCultivosCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Entornos urbanos CV05",
+    "nombre_val": "Entorns urbans CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv05Serie2015",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=LimitesUrbanosCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Nomenclatura infraestructura viaria CV05",
+    "nombre_val": "Nomenclatura infraestructura viària CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvRTCV",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=red_carreteras-xarxa_carreteres&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Red de ferrocarriles CV05",
+    "nombre_val": "Xarxa de ferrocarrils CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvRTCV",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=rtcvs_ffcc&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Red de comunicaciones CV05",
+    "nombre_val": "Xarxa de comunicacions CV05",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvRTCV",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=ComuRedCV05&styles&url=http://terramapas.icv.gva.es/mapa_topografico_base"
+  },
+  {
+    "nombre_cas": "Línea de costa CV50",
+    "nombre_val": "Línia de costa CV50",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=12&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Curvas de nivel CV50",
+    "nombre_val": "Corbes de nivell CV50",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=13&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Curso natural CV50",
+    "nombre_val": "Curs natural CV50",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=5&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Curso artificial CV50",
+    "nombre_val": "Curs artificial CV50",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=6&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Lecho natural CV50",
+    "nombre_val": "Llit natural CV50",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=7&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Embalse CV50",
+    "nombre_val": "Embassament CV50",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=8&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Lago CV50",
+    "nombre_val": "Llac CV50",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=9&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Isla CV50",
+    "nombre_val": "Illa CV50",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=10&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Edificaciones CV50",
+    "nombre_val": "Edificacions CV50",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=24&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Edificaciones puntuales CV50",
+    "nombre_val": "Edificacions puntuals CV50",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=40&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Piscina / Balsa CV50",
+    "nombre_val": "Piscina / Bassa CV50",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=23&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Piscina / Balsa puntual CV50",
+    "nombre_val": "Piscina / Bassa puntual CV50",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=35&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Edificación en ruinas CV50",
+    "nombre_val": "Edificació en ruïnes CV50",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=22&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Edificación en ruinas puntual CV50",
+    "nombre_val": "Edificació en ruïnes puntual CV50",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=34&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Actividad extractiva CV50",
+    "nombre_val": "Activitat extractiva CV50",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=16&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Actividad extractiva puntual CV50",
+    "nombre_val": "Activitat extractiva puntual CV50",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=42&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Depósito",
+    "nombre_val": "Dipòsit",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=39&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Obra de contención",
+    "nombre_val": "Obra de contenció",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=33&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Invernadero",
+    "nombre_val": "Hivernacle",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=21&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Patio",
+    "nombre_val": "Pati",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=25&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Muralla histórica",
+    "nombre_val": "Muralla històrica",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=36&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Espacio dotacional",
+    "nombre_val": "Espai dotacional",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=3&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Circuito",
+    "nombre_val": "Circuit",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=20&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Instalación de transporte poligonal",
+    "nombre_val": "Instal·lació de transport poligonal",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=26&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Instalación de transporte lineal",
+    "nombre_val": "Instal·lació de transport lineal",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=32&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Instalación de transporte puntual",
+    "nombre_val": "Instal·lació de transport puntual",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=37&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Espacio dotacional puntual",
+    "nombre_val": "Espai dotacional puntual",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=41&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Línea eléctrica",
+    "nombre_val": "Línia elèctrica",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=44&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Vértices geodésicos",
+    "nombre_val": "Vèrtexs geodèsics",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=45&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Red de Comunicaciones",
+    "nombre_val": "Xarxa de Comunicacions",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=27&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Ferrocarril",
+    "nombre_val": "Ferrocarril",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=28&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Portales/PKs",
+    "nombre_val": "Portals/PKs",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=43&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Boca de túnel",
+    "nombre_val": "Boca de túnel",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=38&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Red viaria elevada",
+    "nombre_val": "Xarxa viària elevada",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=30&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Ferrocarril elevado",
+    "nombre_val": "Ferrocarril elevat",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=31&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Red viaria subterránea",
+    "nombre_val": "Xarxa viària subterrània",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=18&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Ferrocarril subterráneo",
+    "nombre_val": "Ferrocarril subterrani",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv50Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=18&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv50_mapabase/MapServer/WMSServer?"
+  },
+  {
+    "nombre_cas": "Línea de costa CV100",
+    "nombre_val": "Línia de costa CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=4&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Curvas de nivel CV100",
+    "nombre_val": "Corbes de nivell CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=5&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Puntos de cota CV100",
+    "nombre_val": "Punts de cota CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=47&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Curso natural CV100",
+    "nombre_val": "Curs natural CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=7&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Lecho natural CV100",
+    "nombre_val": "llit natural CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=15&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Lago CV100",
+    "nombre_val": "Llac CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=16&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Isla CV100",
+    "nombre_val": "Illa CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=18&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Embalse CV100",
+    "nombre_val": "Embassament CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=17&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Edificación CV100",
+    "nombre_val": "Edificació CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=24&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Edificación puntual CV100",
+    "nombre_val": "Edificació puntual CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=39&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Piscina/Balsa CV100",
+    "nombre_val": "Piscina/Bassa CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=23&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Piscina/Balsa puntual CV100",
+    "nombre_val": "Piscina/Bassa puntual CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=35&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Edificación en ruinas CV100",
+    "nombre_val": "Edificació en ruïnes CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=22&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Edificación en ruinas puntual CV100",
+    "nombre_val": "Edificació en ruïnes puntual CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=34&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Actividad extractiva CV100",
+    "nombre_val": "Activitat extractiva CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=11&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Actividad extractiva puntual CV100",
+    "nombre_val": "Activitat extractiva puntual CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=42&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Obra de contención CV100",
+    "nombre_val": "Obra de contenció CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=33&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Invernadero CV100",
+    "nombre_val": "Hivernacle CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=21&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Patio CV100",
+    "nombre_val": "Pati CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=25&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Muralla histórica CV100",
+    "nombre_val": "Muralla històrica CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=36&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Línea eléctrica CV100",
+    "nombre_val": "Línia elèctrica CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=45&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Vértices geodésicos CV100",
+    "nombre_val": "Vèrtexs geodèsics CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=44&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Espacio dotacional puntual CV100",
+    "nombre_val": "Espai dotacional puntual CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=41&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Instalación de transporte puntual CV100",
+    "nombre_val": "Instal·lació de transport puntual CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=40&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Depósito CV100",
+    "nombre_val": "Depòsit CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=38&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Instalación de transporte lineal CV100",
+    "nombre_val": "Instal·lació de transport lineal CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=32&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Instalación de transporte poligonal CV100",
+    "nombre_val": "Instal·lació de transport poligonal CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=26&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Espacio dotacional CV100",
+    "nombre_val": "Espai dotacional CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=19&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Red viaria CV100",
+    "nombre_val": "Xarxa viària CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=27&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Ferrocarril CV100",
+    "nombre_val": "Ferrocarril CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=28&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Boca de túnel CV100",
+    "nombre_val": "Boca de túnel CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=37&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Red viaria elevada CV100",
+    "nombre_val": "Xarxa viària elevada CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=30&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Ferrocarril elevado CV100",
+    "nombre_val": "Ferrocarril elevat CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=31&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Red viaria subterránea CV100",
+    "nombre_val": "Xarxa viària subterrània CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=13&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Ferrocarril subterráneo CV100",
+    "nombre_val": "Ferrocarril subterrani CV100",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=CRS:84&dpiMode=7&format=image/png&layers=14&styles&url=https://carto.icv.gva.es/arcgis/services/mapabase_topografico/cv100_mapabase/MapServer/WMSServer?"
+  },
+  {
+	"nombre_cas": "Fechas de vuelo",
+    "nombre_val": "Dates de vol",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvBcv100Serie2018",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=Any_de_vol&styles&url=https://terramapas.icv.gva.es/cgi-bin/mapserv6.fcgi?map%3D/srv_apl/mapserv/servicios/01_cartografia/01_series/map/fechas_vuelos.map"
+  },
+  {
+	"nombre_cas": "Catálogo viario escala 1",
+    "nombre_val": "Catàleg viari escala 1",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_infra_cegesev_ejes_carreteras",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=27&styles&url=http://carto.icv.gva.es/arcgis/services/tm_infraestructuras/infraestructuras_viarias/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Catálogo viario escala 2",
+    "nombre_val": "Catàleg viari escala 2",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_infra_cegesev_ejes_carreteras",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=26&styles&url=http://carto.icv.gva.es/arcgis/services/tm_infraestructuras/infraestructuras_viarias/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Catálogo viario escala 3",
+    "nombre_val": "Catàleg viari escala 3",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_infra_cegesev_ejes_carreteras",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=25&styles&url=http://carto.icv.gva.es/arcgis/services/tm_infraestructuras/infraestructuras_viarias/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Catálogo viario escala 4",
+    "nombre_val": "Catàleg viari escala 4",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spa_icv_infra_cegesev_ejes_carreteras",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=24&styles&url=http://carto.icv.gva.es/arcgis/services/tm_infraestructuras/infraestructuras_viarias/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Puntos quilométricos",
+    "nombre_val": "Punts quilomètrics",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvRTCV",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=22&styles&url=http://carto.icv.gva.es/arcgis/services/tm_infraestructuras/infraestructuras_viarias/MapServer/WmsServer?"
+  },
+  {
+	"nombre_cas": "Caminos",
+    "nombre_val": "Camins",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvRTCV",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=interurbana_no_catalogada&styles&url=http://terramapas.icv.gva.es/rtcv"
+  },
+  {
+	"nombre_cas": "Vía ciclista",
+    "nombre_val": "Via ciclista",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvRTCV",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=cicloruta&styles&url=http://terramapas.icv.gva.es/rtcv"
+  },
+  {
+	"nombre_cas": "Portal",
+    "nombre_val": "Portal",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvRTCV",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=Portal&styles&url=http://terramapas.icv.gva.es/rtcv"
+  },
+  {
+	"nombre_cas": "Estación de autobuses",
+    "nombre_val": "Estació d'autobusos",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvRTCV",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=estacio_bus&styles&url=http://terramapas.icv.gva.es/rtcv"
+  },
+  {
+	"nombre_cas": "Listado de calles",
+    "nombre_val": "Llistat de carrers",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvRTCV",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=XarxaviariaUrbana&styles&url=http://terramapas.icv.gva.es/rtcv"
+  },
+  {
+	"nombre_cas": "Peaje",
+    "nombre_val": "Peatge",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvRTCV",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=peatge&styles&url=http://terramapas.icv.gva.es/rtcv"
+  },
+  {
+	"nombre_cas": "Áreas de servicio",
+    "nombre_val": "Àrees de servei",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvRTCV",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=area_servei&styles&url=http://terramapas.icv.gva.es/rtcv"
+  },
+  {
+	"nombre_cas": "Aparcamiento de servicios viarios invernal",
+    "nombre_val": "Aparcament de servicis viaris hivernal",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvRTCV",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=aparcament&styles&url=http://terramapas.icv.gva.es/rtcv"
+  },
+  {
+	"nombre_cas": "Puente",
+    "nombre_val": "Pont",
+    "aviso_cas": "",
+    "aviso_val": "",
+    "metadato": "spaicvRTCV",
+    "url": "crs=EPSG:25830&dpiMode=7&format=image/png&layers=infraestructures_pont&styles&url=http://terramapas.icv.gva.es/rtcv"
+  }
+]

@@ -1,5 +1,5 @@
 # coding=utf-8
-"""Resources test.
+"""DockWidget test.
 
 .. note:: This program is free software; you can redistribute it and/or modify
      it under the terms of the GNU General Public License as published by
@@ -14,31 +14,32 @@ __copyright__ = 'Copyright 2020, Alfonso Moya Fuero'
 
 import unittest
 
-from qgis.PyQt.QtGui import QIcon
+from qgis.PyQt.QtGui import QDockWidget
+
+from idev_visor_dockwidget import IdevDockWidget
+
+from utilities import get_qgis_app
+
+QGIS_APP = get_qgis_app()
 
 
-
-class IdevDialogTest(unittest.TestCase):
-    """Test rerources work."""
+class IdevDockWidgetTest(unittest.TestCase):
+    """Test dockwidget works."""
 
     def setUp(self):
         """Runs before each test."""
-        pass
+        self.dockwidget = IdevDockWidget(None)
 
     def tearDown(self):
         """Runs after each test."""
+        self.dockwidget = None
+
+    def test_dockwidget_ok(self):
+        """Test we can click OK."""
         pass
 
-    def test_icon_png(self):
-        """Test we can click OK."""
-        path = ':/plugins/Idev/icon.png'
-        icon = QIcon(path)
-        self.assertFalse(icon.isNull())
-
 if __name__ == "__main__":
-    suite = unittest.makeSuite(IdevResourcesTest)
+    suite = unittest.makeSuite(IdevDialogTest)
     runner = unittest.TextTestRunner(verbosity=2)
     runner.run(suite)
-
-
 
