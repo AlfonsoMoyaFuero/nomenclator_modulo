@@ -28,11 +28,10 @@ import uuid  # Para rellenar con identificador unico el campo globalid
 
 from PyQt5.QtWidgets import QFileDialog, QMessageBox, QWidget
 from qgis.PyQt import QtWidgets, uic
-from qgis.PyQt.QtCore import pyqtSignal, QVariant, QDir
+from qgis.PyQt.QtCore import pyqtSignal, QVariant
 from qgis.core import QgsRasterLayer, QgsProject, QgsFields, QgsVectorLayer, QgsVectorFileWriter, QgsField, \
     QgsCoordinateReferenceSystem, QgsFeatureRequest
 from qgis.utils import iface
-
 
 FORM_CLASS, _ = uic.loadUiType(os.path.join(
     os.path.dirname(__file__), 'Nomenclator_modulo_dockwidget_base.ui'))
@@ -53,6 +52,9 @@ class NomenclatorDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
         self.iface = iface
         self.setupUi(self)
 
+        # Limpiamos cache del proyecto
+        # self.iface.mapCanvas().clearCache()
+        # self.iface.mapCanvas().refresh()
 
         # Conecatamos los eventos de los controles del widget
         self.btn_comprobar.clicked.connect(self.recogerRuta)
@@ -65,23 +67,6 @@ class NomenclatorDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
         self.cbx_tres.currentTextChanged.connect(self.activa_edicion)  # Activamos la edicion con el boton
 
     def recogerRuta(self, event):  # Funcion para cargar las capas que necesitaremos, si no existen se crean
-        # Limpiamos cache del proyecto
-        self.iface.mapCanvas().clearCache()
-        self.iface.mapCanvas().refresh()
-        dic_path = os.path.dirname(os.path.realpath(__file__)) + '/datos/dic_toponimia.dbf'
-        print(dic_path)
-        if os.path.isfile(dic_path):
-            dic_layer = iface.addVectorLayer(dic_path, "dic_toponimia", "ogr")
-            dic_layer.setProviderEncoding(u'Latin1')
-            if not dic_layer.isValid():
-                print("Layer failed to load!")
-            else:
-                print("Layer valido")
-            # self.cbx_uno.setEnabled(True)
-                features = dic_layer.getFeatures()
-                for feature in features:  # Rellenamos el primer combobox con los elementos de primer nivel toponimico
-                    if len(str(feature["clave"])) == 1:
-                        self.cbx_uno.addItem(feature["elemento"])
         ruta = QFileDialog.getExistingDirectory(self, 'Selecciona directorio')
         print(ruta)
         file_punto = ruta + '/edit_topo_punto.shp'
@@ -164,6 +149,19 @@ class NomenclatorDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
             mensaje = mensaje + 'La capa edit_topo_poligono.shp no existe, se ha creado' + "\n"
         QMessageBox.information(self.iface.mainWindow(), 'informacion de capas', mensaje)
         self.txt_ruta.setText('Ruta: ' + ruta)
+        dic_path = os.path.dirname(os.path.realpath(__file__)) + '/datos/dic_toponimia.dbf'
+        if os.path.isfile(dic_path):
+            dic_layer = iface.addVectorLayer(dic_path, "dic_toponimia", "ogr")
+            dic_layer.setProviderEncoding(u'Latin1')
+            if not dic_layer.isValid():
+                print("Layer failed to load!")
+            else:
+                print("Layer valido")
+                self.cbx_uno.setEnabled(True)
+                features = dic_layer.getFeatures()
+                for feature in features:  # Rellenamos el primer combobox con los elementos de primer nivel toponimico
+                    if len(str(feature["clave"])) == 1:
+                        self.cbx_uno.addItem(feature["elemento"])
 
     def lista_cbx_dos(self, event):  # Rellenamos el segundo combobox con los elementos de segundo nivel toponimico
         self.cbx_dos.setEnabled(True)
@@ -247,9 +245,8 @@ class NomenclatorDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
         feature["fechaalta"] = str(now.strftime("%Y-%m-%d %H:%M:%S"))
         edit_layer.updateFeature(feature)
         edit_layer.commitChanges()
-        edit_layer.stopEditing()
-        # self.iface.vectorLayerTools().stopEditing(edit_layer, False)
-        # edit_layer.endEditCommand()
+        self.iface.vectorLayerTools().stopEditing(edit_layer, False)
+        #  edit_layer.endEditCommand()
 
 
     def editing_stopped_linea(self):  # Añadimos los atributos al toponimo lineal añadido
@@ -267,9 +264,8 @@ class NomenclatorDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
         feature["fechaalta"] = str(now.strftime("%Y-%m-%d %H:%M:%S"))
         edit_layer.updateFeature(feature)
         edit_layer.commitChanges()
-        edit_layer.stopEditing()
-        # self.iface.vectorLayerTools().stopEditing(edit_layer, False)
-        # edit_layer.endEditCommand()
+        self.iface.vectorLayerTools().stopEditing(edit_layer, False)
+        #  edit_layer.endEditCommand()
 
     def editing_stopped_poligono(self):  # Añadimos los atributos al toponimo poligonal añadido
         now = datetime.datetime.now()
@@ -286,9 +282,8 @@ class NomenclatorDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
         feature["fechaalta"] = str(now.strftime("%Y-%m-%d %H:%M:%S"))
         edit_layer.updateFeature(feature)
         edit_layer.commitChanges()
-        edit_layer.stopEditing()
-        # self.iface.vectorLayerTools().stopEditing(edit_layer, False)
-        # edit_layer.endEditCommand()
+        self.iface.vectorLayerTools().stopEditing(edit_layer, False)
+        #  edit_layer.endEditCommand()
 
 
     def activaorto(self, event):  # Activamos o desactivamos capa de ortofoto PNOA

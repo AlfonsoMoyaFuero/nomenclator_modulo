@@ -8,8 +8,8 @@
 
 """
 
-__author__ = 'moya_alf@gva.es'
-__date__ = '2020-08-13'
+__author__ = 'almofue@usal.es'
+__date__ = '2020-04-25'
 __copyright__ = 'Copyright 2020, Alfonso Moya Fuero'
 
 import unittest
@@ -18,7 +18,7 @@ from qgis.PyQt.QtGui import QIcon
 
 
 
-class IdevDialogTest(unittest.TestCase):
+class NomenclatorDialogTest(unittest.TestCase):
     """Test rerources work."""
 
     def setUp(self):
@@ -31,12 +31,12 @@ class IdevDialogTest(unittest.TestCase):
 
     def test_icon_png(self):
         """Test we can click OK."""
-        path = ':/plugins/Idev/icon.png'
+        path = ':/plugins/Nomenclator/icon.png'
         icon = QIcon(path)
         self.assertFalse(icon.isNull())
 
 if __name__ == "__main__":
-    suite = unittest.makeSuite(IdevResourcesTest)
+    suite = unittest.makeSuite(NomenclatorResourcesTest)
     runner = unittest.TextTestRunner(verbosity=2)
     runner.run(suite)
 

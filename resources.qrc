@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/plugins/idev_visor" >
+    <qresource prefix="/plugins/Nomenclator_modulo" >
         <file>icon.png</file>
     </qresource>
 </RCC>
